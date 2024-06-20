@@ -67,10 +67,11 @@ link_directories("C:/MinGW/lib")
 
 add_executable(OpenGLStart src/main.cpp)
 target_link_libraries(OpenGLStart ${OPENGL_LIBRARIES} glfw3 glew32)
+```
 
 ### `.vscode/settings.json`
 
-
+```
 {
   "cmake.generator": "MinGW Makefiles",
   "cmake.configureSettings": {
@@ -79,3 +80,4 @@ target_link_libraries(OpenGLStart ${OPENGL_LIBRARIES} glfw3 glew32)
     "CMAKE_CXX_COMPILER": "C:/MinGW/bin/g++.exe"
   }
 }
+```
