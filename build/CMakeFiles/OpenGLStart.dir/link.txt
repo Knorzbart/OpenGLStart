@@ -1,3 +1,3 @@
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\OpenGLStart.dir/objects.a
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\OpenGLStart.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\OpenGLStart.dir/objects.a @CMakeFiles\OpenGLStart.dir\objects1.rsp
 C:\MinGW\bin\g++.exe -Wl,--whole-archive CMakeFiles\OpenGLStart.dir/objects.a -Wl,--no-whole-archive -o OpenGLStart.exe -Wl,--out-implib,libOpenGLStart.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenGLStart.dir\linkLibs.rsp

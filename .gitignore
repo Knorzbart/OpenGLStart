@@ -1,0 +1,33 @@
+# Ignore build directories
+/build/
+/build/*
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeFiles/*
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore generated executables and object files
+*.exe
+*.o
+*.obj
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Ignore DLLs
+*.dll
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
