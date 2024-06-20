@@ -4,7 +4,7 @@ project(OpenGLStart)
 set(CMAKE_CXX_STANDARD 11)
 
 find_package(OpenGL REQUIRED)
-include_directories(${OPENGL_INCLUDE_DIR} "C:/MinGW/include")
+include_directories(${OPENGL_INCLUDE_DIR} "C:/MinGW/include" "${CMAKE_SOURCE_DIR}/include")
 link_directories("C:/MinGW/lib")
 
 add_executable(OpenGLStart src/main.cpp)

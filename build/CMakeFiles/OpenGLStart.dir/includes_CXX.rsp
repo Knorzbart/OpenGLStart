@@ -1,1 +1,1 @@
--IC:/MinGW/include
+-IC:/MinGW/include -ID:/Repos/OpenGLStart/include
